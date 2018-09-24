@@ -36,7 +36,7 @@ class Discount extends Component {
 
           <Slide right>
             <div className="discount_description">
-              <h3>Purchase Ticket and Get a Discount</h3>
+              <h3>Purchase Here and Get a Discount</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
