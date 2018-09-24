@@ -8,7 +8,7 @@ const VenueInfo = () => {
     <div className="bck_black">
       <div className="center_wrapper">
         <div className="vn_wrapper">
-          <Zoom duration="1000">
+          <Zoom duration={1000}>
             <div className="vn_item">
               <div className="vn_outer">
                 <div className="vn_inner">
@@ -25,7 +25,7 @@ const VenueInfo = () => {
               </div>
             </div>
           </Zoom>
-          <Zoom duration="1000" delay="500">
+          <Zoom duration={1000} delay={500}>
             <div className="vn_item">
               <div className="vn_outer">
                 <div className="vn_inner">
