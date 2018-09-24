@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import CsButton from '../utils/csbutton';
 
 class Discount extends Component {
   state = {
     discountStart: 0,
-    discountEnd: 20,
+    discountEnd: 25,
   };
 
   percentageRoll = () => {
@@ -19,7 +20,7 @@ class Discount extends Component {
   componentDidUpdate() {
     setTimeout(() => {
       this.percentageRoll();
-    }, 40);
+    }, 35);
   }
 
   render() {
@@ -45,7 +46,12 @@ class Discount extends Component {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <div>button</div>
+              <CsButton
+                text="Purchase Tickets"
+                bck="#ffa800"
+                color="white"
+                link="https://google.com"
+              />
             </div>
           </Slide>
         </div>
