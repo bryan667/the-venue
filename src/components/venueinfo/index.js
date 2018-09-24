@@ -38,7 +38,8 @@ const VenueInfo = () => {
                   />
                   <div className="vn_title">Event Location</div>
                   <div className="vn_desc">
-                    345 Speer Street Oakloand, CA 9835
+                    Smart Araneta Coliseum, Cubao, Quezon City, Metro Manila
+                    1109
                   </div>
                 </div>
               </div>

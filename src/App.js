@@ -5,6 +5,8 @@ import Featured from './components/featured/index';
 import VenueInfo from './components/venueinfo/index';
 import Highlights from './components/highlights/index';
 import Pricing from './components/pricing/index';
+import Location from './components/google-map/index';
+import Footer from './components/header_footer/footer';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
         <VenueInfo />
         <Highlights />
         <Pricing />
+        <Location />
+        <Footer />
       </div>
     );
   }
