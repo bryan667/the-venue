@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from './components/header_footer/Header';
 import Featured from './components/featured/index';
+import VenueInfo from './components/venueinfo/index';
+import Highlights from './components/highlights/index';
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
       >
         <Header />
         <Featured />
+        <VenueInfo />
+        <Highlights />
       </div>
     );
   }

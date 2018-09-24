@@ -18,7 +18,7 @@ class Header extends Component {
   }
 
   mouseScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 0) {
       this.setState({
         headerTransp: true,
       });
